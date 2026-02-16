@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #050816, #0b0f2e);
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #0d1328;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f5b041;
+  }
+  
+  .nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #f5b041;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero-title {
+    font-size: 60px;
+    color: #f5b041;
+  }
+  
+  .hero-text {
+    max-width: 700px;
+    margin: 20px auto;
+    color: #ccc;
+  }
+  
+  .primary-btn {
+    padding: 15px 40px;
+    background: #f5b041;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .primary-btn:hover {
+    background: #d68910;
+  }
+  
+  .feature-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: #111633;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .upload-box {
+    margin: 40px 0;
+  }
+  
+  .result-box {
+    margin-top: 40px;
+    background: #111633;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tag {
+    background: #f5b041;
+    color: black;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+  }
